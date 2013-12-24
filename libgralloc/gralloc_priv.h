@@ -52,6 +52,9 @@ enum {
     /* Buffer content should be displayed on an primary display only */
     GRALLOC_USAGE_PRIVATE_INTERNAL_ONLY   =       0x04000000,
 
+  /* WRITEBACK heap is a carveout heap for writeback, can be secured*/
+     GRALLOC_USAGE_PRIVATE_WRITEBACK_HEAP  =       0x04000000,\
+
     /* CAMERA heap is a carveout heap for camera, is not secured*/
     GRALLOC_USAGE_PRIVATE_CAMERA_HEAP     =       0x08000000,
 
